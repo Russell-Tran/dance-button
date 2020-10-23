@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB7AE2192543A31B0048DCE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7AE2182543A31B0048DCE3 /* AppDelegate.swift */; };
+		FB7AE21B2543A31B0048DCE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7AE21A2543A31B0048DCE3 /* SceneDelegate.swift */; };
+		FB7AE21D2543A31B0048DCE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7AE21C2543A31B0048DCE3 /* ViewController.swift */; };
+		FB7AE2202543A31B0048DCE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7AE21E2543A31B0048DCE3 /* Main.storyboard */; };
+		FB7AE2232543A31B0048DCE3 /* dancebutton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB7AE2212543A31B0048DCE3 /* dancebutton.xcdatamodeld */; };
+		FB7AE2252543A31D0048DCE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7AE2242543A31D0048DCE3 /* Assets.xcassets */; };
+		FB7AE2282543A31D0048DCE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7AE2262543A31D0048DCE3 /* LaunchScreen.storyboard */; };
+		FB7AE2332543A31D0048DCE3 /* dancebuttonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7AE2322543A31D0048DCE3 /* dancebuttonTests.swift */; };
+		FB7AE23E2543A31D0048DCE3 /* dancebuttonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7AE23D2543A31D0048DCE3 /* dancebuttonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB7AE22F2543A31D0048DCE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB7AE20D2543A31A0048DCE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7AE2142543A31A0048DCE3;
+			remoteInfo = dancebutton;
+		};
+		FB7AE23A2543A31D0048DCE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB7AE20D2543A31A0048DCE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7AE2142543A31A0048DCE3;
+			remoteInfo = dancebutton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB7AE2152543A31B0048DCE3 /* dancebutton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dancebutton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7AE2182543A31B0048DCE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB7AE21A2543A31B0048DCE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB7AE21C2543A31B0048DCE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB7AE21F2543A31B0048DCE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB7AE2222543A31B0048DCE3 /* dancebutton.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dancebutton.xcdatamodel; sourceTree = "<group>"; };
+		FB7AE2242543A31D0048DCE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB7AE2272543A31D0048DCE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB7AE2292543A31D0048DCE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7AE22E2543A31D0048DCE3 /* dancebuttonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dancebuttonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7AE2322543A31D0048DCE3 /* dancebuttonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dancebuttonTests.swift; sourceTree = "<group>"; };
+		FB7AE2342543A31D0048DCE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7AE2392543A31D0048DCE3 /* dancebuttonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dancebuttonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7AE23D2543A31D0048DCE3 /* dancebuttonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dancebuttonUITests.swift; sourceTree = "<group>"; };
+		FB7AE23F2543A31D0048DCE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB7AE2122543A31A0048DCE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7AE22B2543A31D0048DCE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7AE2362543A31D0048DCE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB7AE20C2543A31A0048DCE3 = {
+			isa = PBXGroup;
+			children = (
+				FB7AE2172543A31B0048DCE3 /* dancebutton */,
+				FB7AE2312543A31D0048DCE3 /* dancebuttonTests */,
+				FB7AE23C2543A31D0048DCE3 /* dancebuttonUITests */,
+				FB7AE2162543A31B0048DCE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB7AE2162543A31B0048DCE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB7AE2152543A31B0048DCE3 /* dancebutton.app */,
+				FB7AE22E2543A31D0048DCE3 /* dancebuttonTests.xctest */,
+				FB7AE2392543A31D0048DCE3 /* dancebuttonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB7AE2172543A31B0048DCE3 /* dancebutton */ = {
+			isa = PBXGroup;
+			children = (
+				FB7AE2182543A31B0048DCE3 /* AppDelegate.swift */,
+				FB7AE21A2543A31B0048DCE3 /* SceneDelegate.swift */,
+				FB7AE21C2543A31B0048DCE3 /* ViewController.swift */,
+				FB7AE21E2543A31B0048DCE3 /* Main.storyboard */,
+				FB7AE2242543A31D0048DCE3 /* Assets.xcassets */,
+				FB7AE2262543A31D0048DCE3 /* LaunchScreen.storyboard */,
+				FB7AE2292543A31D0048DCE3 /* Info.plist */,
+				FB7AE2212543A31B0048DCE3 /* dancebutton.xcdatamodeld */,
+			);
+			path = dancebutton;
+			sourceTree = "<group>";
+		};
+		FB7AE2312543A31D0048DCE3 /* dancebuttonTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB7AE2322543A31D0048DCE3 /* dancebuttonTests.swift */,
+				FB7AE2342543A31D0048DCE3 /* Info.plist */,
+			);
+			path = dancebuttonTests;
+			sourceTree = "<group>";
+		};
+		FB7AE23C2543A31D0048DCE3 /* dancebuttonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB7AE23D2543A31D0048DCE3 /* dancebuttonUITests.swift */,
+				FB7AE23F2543A31D0048DCE3 /* Info.plist */,
+			);
+			path = dancebuttonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB7AE2142543A31A0048DCE3 /* dancebutton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7AE2422543A31D0048DCE3 /* Build configuration list for PBXNativeTarget "dancebutton" */;
+			buildPhases = (
+				FB7AE2112543A31A0048DCE3 /* Sources */,
+				FB7AE2122543A31A0048DCE3 /* Frameworks */,
+				FB7AE2132543A31A0048DCE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dancebutton;
+			productName = dancebutton;
+			productReference = FB7AE2152543A31B0048DCE3 /* dancebutton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB7AE22D2543A31D0048DCE3 /* dancebuttonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7AE2452543A31D0048DCE3 /* Build configuration list for PBXNativeTarget "dancebuttonTests" */;
+			buildPhases = (
+				FB7AE22A2543A31D0048DCE3 /* Sources */,
+				FB7AE22B2543A31D0048DCE3 /* Frameworks */,
+				FB7AE22C2543A31D0048DCE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB7AE2302543A31D0048DCE3 /* PBXTargetDependency */,
+			);
+			name = dancebuttonTests;
+			productName = dancebuttonTests;
+			productReference = FB7AE22E2543A31D0048DCE3 /* dancebuttonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB7AE2382543A31D0048DCE3 /* dancebuttonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7AE2482543A31D0048DCE3 /* Build configuration list for PBXNativeTarget "dancebuttonUITests" */;
+			buildPhases = (
+				FB7AE2352543A31D0048DCE3 /* Sources */,
+				FB7AE2362543A31D0048DCE3 /* Frameworks */,
+				FB7AE2372543A31D0048DCE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB7AE23B2543A31D0048DCE3 /* PBXTargetDependency */,
+			);
+			name = dancebuttonUITests;
+			productName = dancebuttonUITests;
+			productReference = FB7AE2392543A31D0048DCE3 /* dancebuttonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB7AE20D2543A31A0048DCE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					FB7AE2142543A31A0048DCE3 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					FB7AE22D2543A31D0048DCE3 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = FB7AE2142543A31A0048DCE3;
+					};
+					FB7AE2382543A31D0048DCE3 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = FB7AE2142543A31A0048DCE3;
+					};
+				};
+			};
+			buildConfigurationList = FB7AE2102543A31A0048DCE3 /* Build configuration list for PBXProject "dancebutton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB7AE20C2543A31A0048DCE3;
+			productRefGroup = FB7AE2162543A31B0048DCE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB7AE2142543A31A0048DCE3 /* dancebutton */,
+				FB7AE22D2543A31D0048DCE3 /* dancebuttonTests */,
+				FB7AE2382543A31D0048DCE3 /* dancebuttonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB7AE2132543A31A0048DCE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7AE2282543A31D0048DCE3 /* LaunchScreen.storyboard in Resources */,
+				FB7AE2252543A31D0048DCE3 /* Assets.xcassets in Resources */,
+				FB7AE2202543A31B0048DCE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7AE22C2543A31D0048DCE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7AE2372543A31D0048DCE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB7AE2112543A31A0048DCE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7AE21D2543A31B0048DCE3 /* ViewController.swift in Sources */,
+				FB7AE2192543A31B0048DCE3 /* AppDelegate.swift in Sources */,
+				FB7AE21B2543A31B0048DCE3 /* SceneDelegate.swift in Sources */,
+				FB7AE2232543A31B0048DCE3 /* dancebutton.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7AE22A2543A31D0048DCE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7AE2332543A31D0048DCE3 /* dancebuttonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7AE2352543A31D0048DCE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7AE23E2543A31D0048DCE3 /* dancebuttonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB7AE2302543A31D0048DCE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB7AE2142543A31A0048DCE3 /* dancebutton */;
+			targetProxy = FB7AE22F2543A31D0048DCE3 /* PBXContainerItemProxy */;
+		};
+		FB7AE23B2543A31D0048DCE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB7AE2142543A31A0048DCE3 /* dancebutton */;
+			targetProxy = FB7AE23A2543A31D0048DCE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB7AE21E2543A31B0048DCE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB7AE21F2543A31B0048DCE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB7AE2262543A31D0048DCE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB7AE2272543A31D0048DCE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB7AE2402543A31D0048DCE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB7AE2412543A31D0048DCE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB7AE2432543A31D0048DCE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TAB5A2X8K;
+				INFOPLIST_FILE = dancebutton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.russelltran.dancebutton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB7AE2442543A31D0048DCE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TAB5A2X8K;
+				INFOPLIST_FILE = dancebutton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.russelltran.dancebutton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB7AE2462543A31D0048DCE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TAB5A2X8K;
+				INFOPLIST_FILE = dancebuttonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.russelltran.dancebuttonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dancebutton.app/dancebutton";
+			};
+			name = Debug;
+		};
+		FB7AE2472543A31D0048DCE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TAB5A2X8K;
+				INFOPLIST_FILE = dancebuttonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.russelltran.dancebuttonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dancebutton.app/dancebutton";
+			};
+			name = Release;
+		};
+		FB7AE2492543A31D0048DCE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TAB5A2X8K;
+				INFOPLIST_FILE = dancebuttonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.russelltran.dancebuttonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dancebutton;
+			};
+			name = Debug;
+		};
+		FB7AE24A2543A31D0048DCE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TAB5A2X8K;
+				INFOPLIST_FILE = dancebuttonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.russelltran.dancebuttonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dancebutton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB7AE2102543A31A0048DCE3 /* Build configuration list for PBXProject "dancebutton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7AE2402543A31D0048DCE3 /* Debug */,
+				FB7AE2412543A31D0048DCE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7AE2422543A31D0048DCE3 /* Build configuration list for PBXNativeTarget "dancebutton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7AE2432543A31D0048DCE3 /* Debug */,
+				FB7AE2442543A31D0048DCE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7AE2452543A31D0048DCE3 /* Build configuration list for PBXNativeTarget "dancebuttonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7AE2462543A31D0048DCE3 /* Debug */,
+				FB7AE2472543A31D0048DCE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7AE2482543A31D0048DCE3 /* Build configuration list for PBXNativeTarget "dancebuttonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7AE2492543A31D0048DCE3 /* Debug */,
+				FB7AE24A2543A31D0048DCE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB7AE2212543A31B0048DCE3 /* dancebutton.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB7AE2222543A31B0048DCE3 /* dancebutton.xcdatamodel */,
+			);
+			currentVersion = FB7AE2222543A31B0048DCE3 /* dancebutton.xcdatamodel */;
+			path = dancebutton.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB7AE20D2543A31A0048DCE3 /* Project object */;
+}
