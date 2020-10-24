@@ -16,6 +16,7 @@
 		FB7AE2282543A31D0048DCE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7AE2262543A31D0048DCE3 /* LaunchScreen.storyboard */; };
 		FB7AE2332543A31D0048DCE3 /* dancebuttonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7AE2322543A31D0048DCE3 /* dancebuttonTests.swift */; };
 		FB7AE23E2543A31D0048DCE3 /* dancebuttonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7AE23D2543A31D0048DCE3 /* dancebuttonUITests.swift */; };
+		FB7AE24F2543A7CC0048DCE3 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7AE24E2543A7CC0048DCE3 /* SpotifyiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FB7AE2392543A31D0048DCE3 /* dancebuttonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dancebuttonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7AE23D2543A31D0048DCE3 /* dancebuttonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dancebuttonUITests.swift; sourceTree = "<group>"; };
 		FB7AE23F2543A31D0048DCE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7AE24E2543A7CC0048DCE3 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7AE24F2543A7CC0048DCE3 /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		FB7AE20C2543A31A0048DCE3 = {
 			isa = PBXGroup;
 			children = (
+				FB7AE24E2543A7CC0048DCE3 /* SpotifyiOS.framework */,
 				FB7AE2172543A31B0048DCE3 /* dancebutton */,
 				FB7AE2312543A31D0048DCE3 /* dancebuttonTests */,
 				FB7AE23C2543A31D0048DCE3 /* dancebuttonUITests */,
@@ -442,6 +446,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7TAB5A2X8K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = dancebutton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,6 +469,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7TAB5A2X8K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = dancebutton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
